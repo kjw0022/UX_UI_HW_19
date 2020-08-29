@@ -1,28 +1,33 @@
 .inline-block {
     display:inline-block;
     vertical-align: top;
+    margin-right: 75px;
   }
   .logo{
-    width:"23%";
-    padding:"1%";
+    width:23%;
+    padding:1%;
+    margin-left:100px;
     text-align:center;
   }
   nav{
     float:right;
-    width:"73%";
-    padding:"1%";
+    width:73%;
+    padding:1%;
+    margin-right:100px;
+    color: #02244E;
   }
   ul{
-    width:"50%";
-    margin-left:auto;
+    width:50%;
+    margin-left:100px;
   }
   .heroImg{
-    height:"600px";
-    padding: "25px";
+    height: 600px;
+    padding: 25px;
   }
   .content{
-    width:"500px";
-    margin:"0 auto";
+    width:500px;
+    margin:100px;
+    color: #02244E;
   }
 
   /*My Work section constructed using CSS Grid*/
@@ -32,6 +37,8 @@
     grid-template-rows: 33% 33% 33%;
     align-content: start;
     justify-content: start;
+    color: #ffffff;
+    margin: 100px;
   }
   /*My UX Skills section coded using CSS flex*/
  .flexContainer{
@@ -41,15 +48,45 @@
     align-items: center;
     justify-content: space-around;
     align-content: flex-start;
-    margin:"0 auto";
-    padding:"25px";
+    padding:25px;
+  }
+  .myWork{
+    color: #ffffff;
+    background-color: #73919C;
+  }
+  .myWork h1{
+    margin:100px;
+    padding: 50px;
+  }
+  .myWork h3{
+    margin:100px;
+    padding: 50px;
+  }
+  .myWork h4{
+    padding-left: 200px;
+  }
+  .myWork p{
+    padding-left: 200px;
+  }
+  .myWork button{
+    margin-left: 200px;
+  }
+  .myWork img{
+    margin-left:100px;
+  }
+  .mySkills{
+    color: #02244E;
+    margin:100px;
   }
   footer{
-   background-color: #373738;
+   background-color: #73919C;
+   color:#ffffff;
+   padding-top:20px;
+   padding-bottom:20px;
   }
   ul{
     float:right;
-    padding-right: 50px;
+    padding-right: 20px;
     vertical-align: top;
   }
   li{
@@ -57,10 +94,10 @@
     justify-content:space-between;
   }
   .footer{
-    padding-left: 50px;
-    margin:"25px";
+    padding: 10px;
+    margin-left: 100px;
   }
-
+ 
   @media only screen and (max-width:600){
     .flexContainer{
       display:flex;

@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-            Portfolio
-        </title>
+        <title>Portfolio</title>
         <link href="CSS/style.css" rel="stylesheet" >
     </head>
     <body>
@@ -15,9 +13,9 @@
             </div>
             <nav class="inline-block">
                 <ul>
-                   <li class="inline-block">WORK</li> 
-                   <li class="inline-block">ABOUT</li> 
-                   <li class="inline-block">LET'S CHAT</li> 
+                   <li class="inline-block customNav">WORK</li> 
+                   <li class="inline-block customNav">ABOUT</li> 
+                   <li class="inline-block customNav">LET'S CHAT</li> 
                 </ul>
             </nav>
         </header>
@@ -37,7 +35,7 @@
         <section class="myWork">
             <h1>My Work</h1>
             <div class="workGrid">
-                <div><img src="Images/MoneyTree.png" width=202px, height=427.5px></div>
+                <div class="projectHighlight"><img src="Images/MoneyTree.png" width=202px, height=427.5px></div>
                 <div>
                     <h4>MoneyTree</h4>
                     <p>A mobile budgeting app with gamification <br>
@@ -45,7 +43,7 @@
                         to a budget!<br></p>
                     <button>View Project</button>
                 </div>
-                <div><img src="Images/Ed.gov photo.png" width=688px, height=559px></div>
+                <div class="projectHighlight"><img src="Images/Ed.gov photo.png" width=688px, height=559px></div>
                 <div>
                     <h4>Ed.gov</h4>
                     <p>Redesigning a responsive website to <br>
@@ -53,7 +51,7 @@
                         U.S. Department of Education <br></p>
                     <button>View Project</button>
                 </div>
-                <div> <img src="Images/K9s for warriors mobile1.png" width=492px, height=829px> </div>
+                <div class="projectHighlight"><img src="Images/K9s for warriors mobile1.png" width=492px, height=829px> </div>
                 <div>
                     <h4>K9s for Warriors</h4>
                     <p>A mobile app to improve service dog <br>
@@ -86,13 +84,16 @@
         </section>
         <footer>
             <ul>
-                <li class="inline-block">LinkedIn</li>
-                <li class="inline-block">GitHub</li>
-                <li class="inline-block">Resume</li>
+                <li class="inline-block customFooter">LinkedIn</li>
+                <li class="inline-block customFooter">GitHub</li>
+                <li class="inline-block customFooter">Resume</li>
             </ul>
             <li class="footer">LET'S CHAT</li>
             <li class="footer">kjw00022@gmail.com</li>
             <li class="footer">All Work © 2020 Kate Williams</li>
         </footer>
     </body>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="JS/index.js"></script>
 </html>
