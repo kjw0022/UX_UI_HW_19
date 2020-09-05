@@ -1,3 +1,9 @@
+body{
+  font-family: 'Roboto';
+}
+button{
+  font-family: 'Roboto';
+}
 .inline-block {
     display:inline-block;
     vertical-align: top;
@@ -7,6 +13,9 @@
     padding:1%;
     width:23%;
     margin-left:100px;
+  }
+  .customNav{
+    padding-left:75px;
   }
   nav{
     width:73%;
@@ -26,8 +35,24 @@
     justify-content:space-between;
   }
   .heroImg{
-    height: 300px;
+    height: 400px;
     padding: 25px;
+  }
+  .flexContainer2{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-items: center;
+    align-content: flex-start;
+  }
+  .intro{
+    font-weight: bold;
+    font-size: 35px;
+    padding-right: 7px;
+  }
+  .name{
+    font-size: 35px;
+    color: #B97375;
   }
   .content{
     width:500px;
@@ -52,6 +77,8 @@
     background-color:#02244E;
     border: 1px solid #02244E;
     border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 20px;
@@ -87,14 +114,17 @@
   }
   .myWork h1{
     margin:100px;
-    padding: 50px;
+    padding-top: 100px;
+    text-align:center;
   }
   .myWork h3{
     margin:100px;
     padding: 50px;
+    font-weight: bold;
   }
   .myWork h4{
     padding-left: 200px;
+    font-weight: bold;
   }
   .myWork p{
     padding-left: 200px;
@@ -104,6 +134,9 @@
   }
   .myWork img{
     margin-left:100px;
+  }
+  .mySkills h1{
+    text-align:center;
   }
   .mySkills{
     color: #02244E;
@@ -115,10 +148,12 @@
    padding-top:20px;
    padding-bottom:20px;
   }
-
   .footer{
-    padding: 10px;
+    padding: 15px;
     margin-left: 100px;
+  }
+  .customFooter{
+    padding-left:75px;
   }
  
   @media only screen and (max-width:600){
